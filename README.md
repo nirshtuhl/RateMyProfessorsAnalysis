@@ -23,7 +23,7 @@ There is a way to simulate it, but while working that out I found something bett
 
 ![](/rmppictures/thankfully.PNG "deus ex machina")
 
-This is what I never knew I needed. This is the machete in the corn maze. When I visit the **Request URL** I get the review data in its raw form. I don't need BeautifulSoup anymore because the data comes back in JSON, a format which is very easy for Python to read. The **tid=95525** tells RMP's server which professor I am searching for, and **page=2** tells it which block of twenty reviews I want. Automating the data collection from this point was much, much easier (see ![getprofessordata.py](/getprofessordata.py) for details).
+This is what I never knew I needed. This is the machete in the corn maze. When I visit the **Request URL** I get the review data in its raw form. I don't need BeautifulSoup anymore because the data comes back in JSON, a format which is very easy for Python to process. The **tid=95525** tells RMP's server which professor I am searching for, and **page=2** tells it which block of twenty reviews I want. Automating the data collection from this point was much, much easier (see ![getprofessordata.py](/getprofessordata.py) for details).
 
 ## Asking too much
 
