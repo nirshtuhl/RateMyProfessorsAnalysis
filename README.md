@@ -15,7 +15,7 @@ BeautifulSoup made it easy to extract the overall rating, difficulty rating and 
 
 ![](/rmppictures/bs4worstnightmare.PNG ""Don't Even Bother"")
 
-When you click on a professor, RMP only shows you the first twenty reviews in case your connection is slow. This prevents your friend with dialup from slowing down their parents' Netflix to load hundreds of comments detailing how Noam Chomsky has "really changed." Good for your friend, bad for me.
+When you click on a professor, RMP only shows you the first twenty reviews in case your connection is slow. This prevents your friend with dialup from slowing down their parents' Netflix to load hundreds of comments detailing how Noam Chomsky has "really changed." Good for your friend's parents, bad for me.
 
 The problem is that at the moment that you click Load More, you're actually asking RMP for the next set of twenty reviews. That request goes to their computers and comes back through their website so you see it formatted all nice and readable. Ironically, the process that makes it nice and readable to humans also turns it into total garbage for computers. Hence why I needed BeautifulSoup to do my work for me. Unfortunately, BeautifulSoup can't simulate this mouse click.
 
