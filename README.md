@@ -66,3 +66,5 @@ Here r<sup>2</sup> is called the *coefficient of determination* and we can inter
 ### Visualizing Northeastern's professors
 
 ![](/rmppictures/professorscatter.png "")
+
+Sometimes visualizing data can help us understand it better. Here it seems like professors with more reviews tend to get push toward the middle, as we would expect. You can also see two groupings of professors; if we draw a diagonal line from the bottom-left to the top-right we can separate the groups into "take this professor" and "avoid this professor."
