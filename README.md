@@ -2,7 +2,7 @@
 Intended for an audience of mixed technical experience. Programmers will be condescended to.
 
 ## Background
-Aside from internal, university-administered surveys with private data :confused:, RateMyProfessors is the primary resource for helping students choose their professors. It's the closest thing to a randomized survey we can get, with the slight caveat that it's not random. I wanted to understand the behavior of students who are so inspired that they take the time to fill out RMP's survey. I sure haven't done it. How do I know whether to trust the reviews?
+Aside from internal, university-administered surveys with private data :confused:, RateMyProfessors (RMP) is the primary resource for helping students choose their professors. It's the closest thing to a randomized survey we can get, with the slight caveat that it's not random. I wanted to understand the behavior of students who are so inspired that they take the time to fill out RMP's survey. I sure haven't done it. How do I know whether to trust the reviews?
 
 ## Collecting the data
 This project began as an excuse to learn [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), a tool for Python that lets you scrape data off websites and store it in a way that makes it easier to process and analyze. It can save hours of time when you have no other good ways of collecting the data. I decided to extract reviews for all the professors in the Computer Science and Mathematics departments at Northeastern.
