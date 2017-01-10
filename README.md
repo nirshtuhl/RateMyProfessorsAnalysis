@@ -32,3 +32,4 @@ This discovery made data collection easier, but I had to be conscious of getting
 Unfortunately there is no Penguin to my RMP. Because I automated the process of collecting data for a long list of professors, my requests were going in very fast and it was entirely possible that at a certain point RMP would tell me no more. If that happened, I'd have to an hour or a day until I could resume. Not a huge problem but it would have been a hassle. Anyway, moot point because it didn't happen.
 
 ## Analyzing the data
+coming soon!
