@@ -27,7 +27,7 @@ This is what I never knew I needed. This is the machete in the corn maze. When I
 
 ## Asking too much
 
-This discovery made data collection easier, but I had to be conscious of getting **rate-limited**. This is when ![Il Mondo](http://www.ilmondopizza.com/index.php) tells you they can't make 500 pizzas for your meeting this afternoon and, *just because you asked*, they won't even sell you a slice until tomorrow. Jerks. So you have to either wait or go somewhere else. Joke's on them because ![Penguin Pizza](http://www.thepenguinpizza.com) is better anyway.
+This discovery made data collection easier, but I had to be conscious of getting **rate-limited**. This is when ![Il Mondo Pizzeria](http://www.ilmondopizza.com/index.php) tells you they can't make 500 pies for your meeting this afternoon, and *just because you asked*, they won't even sell you a slice until tomorrow. Jerks. So you have to either wait or go somewhere else. Joke's on them because ![Penguin](http://www.thepenguinpizza.com) is better anyway.
 
 Unfortunately there is no Penguin to my RMP. Because I automated the process of collecting data for a long list of professors, my requests were going in very fast and it was entirely possible that at a certain point RMP would tell me no more. If that happened, I'd have to an hour or a day until I could resume. Not a huge problem but it would have been a hassle. Anyway, moot point because it didn't happen.
 
