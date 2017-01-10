@@ -34,7 +34,7 @@ Unfortunately there is no Penguin to my RMP. Because I automated the process of 
 Now that I had full data (2620 reviews for 240 professors) for the Computer Science and Math departments, time to test some assumptions.
 
 ### Assumption 1: Difficulty ratings follow a normal distribution (bell curve)
-Seems like a justified assumption to test. I'd expect most professors to be of average difficulty, with rarest ratings being 1s (super easy) and 5s (super hard). The data seems to show that this is correct.
+I'd expect most professors to be of average difficulty, with rarest ratings being 1s (super easy) and 5s (super hard). The data seems to show that this is correct.
 
 ![](/rmppictures/difficultycounts.png "")
 
@@ -49,4 +49,20 @@ If it's the first one, this reveals a self-selection bias that we should be awar
 
 It is also possible that nine rating choices is too many. What separates a 2.0 professor from a 1.5? Good hair? The lack of clear definitions of what a rating signifies coupled with self-selection bias can explain the distribution we see.
 
-### Assumption 3: coming soon!
+### Assumption 3: Easier professors get higher ratings, harder professors get lower ones
+I think if the grading is lenient, students might be in a better mood when giving a review, and vice versa.
+
+![](/rmppictures/ratingpairs.png "")
+
+This seems to be a tendency. It could be explained by students wanting to be nicer to professors who give good grades, or it could happen the other way--professors who explain things poorly end up running a more difficult class just because students have a harder time learning the material.
+
+### Assumption 4: Difficulty rating is a good proxy for Grade Received
+In the real world, you have to deal with incomplete data. All the time. To me, the grade a student received from a professor is more telling than that student's perceived difficulty of the professor, since I can't put my "Difficulty Point Average" on my resume. Since Grade Received is optional, most students don't fill it out. I want to know how well reported difficulty correlates with Grade Received for those students who filled it out.
+
+![](/rmppictures/gradevsdifficulty.png "")
+
+Here r<sup>2</sup> is called the *coefficient of determination* and we can interpret it to mean "14% of the change in difficulty rating is caused by the linear relationship between grade received and difficulty." The line on the chart, called the regression line or line of best fit, indicates that linear relationship. As grades improve, difficulty decreases. 14% is fairly low, so there is a weak correlation between grade and difficulty. However, this subset of reviews is only around 15% of the total reviews submitted, so to get a more telling result I would need to collect a larger set of data from more departments or universities.
+
+### Visualizing Northeastern's professors
+
+![](/rmppictures/professorscatter.png "")
