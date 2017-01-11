@@ -1,5 +1,5 @@
 # Revenge of the Nerds: examining student behavior on RateMyProfessors.com
-Intended for an audience of mixed technical experience. Programmers will be condescended to.
+##### Intended for an audience of mixed technical experience
 
 ## Background
 Aside from internal, university-administered surveys with private data :confused:, RateMyProfessors (RMP) is the primary resource for helping students choose their professors. It's the closest thing to a randomized survey we can get, with the slight caveat that it's not random. I wanted to understand the behavior of students who are so inspired that they take the time to fill out RMP's survey. I sure haven't done it. How do I know whether to trust the reviews?
@@ -64,7 +64,13 @@ In the real world, you have to deal with incomplete data. All the time. To me, t
 Here r<sup>2</sup> is called the *coefficient of determination* and we can interpret it to mean "14% of the change in difficulty rating is caused by the linear relationship between grade received and difficulty." The line on the chart, called the regression line or line of best fit, indicates that linear relationship. As grades improve, difficulty decreases. 14% is fairly low, so there is a weak correlation between grade and difficulty. However, this subset of reviews is only around 15% of the total reviews submitted, so to get a more telling result I would need to collect a larger set of data from more departments or universities.
 
 ### Visualizing Northeastern's professors
+Sometimes visualizing data can help us understand it. Or at least [make us think we do](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect).
 
 ![](/rmppictures/professorscatter.png "")
 
-Sometimes visualizing data can help us understand it. Here it seems like professors with more reviews tend to get pushed toward the middle, as we would expect. You can also see two groupings of professors; if we draw a diagonal line from the bottom-left to the top-right we can separate the groups into "take this professor" and "avoid this professor."
+Here it seems like professors with more reviews tend to get pushed toward the middle, as we would expect. You can also see two groupings of professors; if we draw a diagonal line from the bottom-left to the top-right we can separate the groups into "take this professor" and "avoid this professor."
+
+## Nerd stuff
+If you want to play with this data, you can use [getprofessordata.py](/getprofessordata.py). It should be easy to work with. Just initialize an RMPData.json file containing [] and run the script with the college ID and department name of your choice, and you'll get all the reviews of professors in that department. You might have to do a little work to figure out how your department name is coded--for example, computer science is Computer+Science but departments with longer names might be difficult to guess. I didn't find where those were all stored.
+
+Large writes to RMPData.json may take a while. This is because writing to it doesn't actually append text to the end of the file; it stores all the json as a variable, adds objects to it and then writes the whole thing from memory back into the file. A better way would be nice, but this worked for the dataset I needed.
