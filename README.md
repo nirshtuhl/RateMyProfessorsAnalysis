@@ -1,5 +1,5 @@
 # Revenge of the Nerds: examining student behavior on RateMyProfessors.com
-##### Intended for an audience of mixed technical experience
+Intended for an audience of mixed technical experience
 
 ## Background
 Aside from internal, university-administered surveys with private data :confused:, RateMyProfessors (RMP) is the primary resource for helping students choose their professors. It's the closest thing to a randomized survey we can get, with the slight caveat that it's not random. I wanted to understand the behavior of students who are so inspired that they take the time to fill out RMP's survey. I sure haven't done it. How do I know whether to trust the reviews?
